@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Aircraft Boeing 737-800</title>
+    <style>
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container1 {
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 606px;
+  bottom: 0px;
+  height: 100px;
+  margin: 40px;
+  display: flex;
+  z-index: 98;
+  position: absolute;
+  align-items: center;
+  padding-left: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button1 {
+  color: #fdfdfd;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: 18px;
+  border-width: 0px;
+  margin-right: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+.button1:hover {
+  color: #080808;
+  background-color: rgba(255, 161, 73, 0.98);
+}
+.button2 {
+  color: #fdfdfd;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: 18px;
+  border-width: 0px;
+  margin-right: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+.button2:hover {
+  color: #000000;
+  background-color: rgba(255, 161, 73, 0.98);
+}
+.button3 {
+  color: #fdfdfd;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: 18px;
+  border-width: 0px;
+  margin-right: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+.button3:hover {
+  color: #000000;
+  background-color: rgba(255, 161, 73, 0.98);
+}
+.button4 {
+  color: #fdfdfd;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: 5px;
+  border-width: 0px;
+  margin-right: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.19);
+  height: 60px;
+  white-space: normal; /* Biar Gak Lepas dari Tombol */
+      line-height: 1; /* Edit jarak antar baris */
+    }
+
+.button4:hover {
+  color: #000000;
+  background-color: rgba(255, 161, 73, 0.98);
+}
+.button5 {
+  color: #fdfdfd;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: 5px;
+  border-width: 0px;
+  margin-right: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.19);
+  height: 60px;
+  white-space: normal; /* Biar Gak Lepas dari Tombol */
+      line-height: 1; /* Edit jarak antar baris */
+    }
+
+.button5:hover {
+  color: #000000;
+  background-color: rgba(255, 161, 73, 0.98);
+}
+.container2 {
+  top: auto;
+  left: 20px;
+  right: auto;
+  width: 200px;
+  bottom: 14px;
+  height: 637px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: 20px;
+}
+
+.image1 {
+  width: 100px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: 20px;
+}
+
+.image2 {
+  width: 100px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: 20px;
+}
+
+
+.sidewall{
+opacity: 0;
+visibility: hidden;
+
+}
+
+.carpet{
+opacity: 0;
+visibility: hidden;
+
+}
+
+.curtain{
+opacity: 0;
+visibility: hidden;
+}
+
+.businessseatcover{
+opacity: 0;
+visibility: hidden;
+}
+
+.economyseatcover{
+opacity: 0;
+visibility: hidden;
+}
+
+.show{
+opacity: 1;
+visibility: visible;
+}
+
+.iframe {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  align-self: stretch;
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <iframe src="Interior Boeing 737-800.html" class="iframe" id="myapp" frameborder="0"></iframe>
+        <div class="container1">
+          <button class="thqButton button1" onclick="toggleSidewall()">Sidewall</button>
+          <button class="thqButton button2" onclick="toggleCarpet()">Carpet</button>
+          <button class="thqButton button3" onclick="toggleCurtain()">Curtain</button>
+          <button class="thqButton button4" onclick="toggleBusinessseatcover()">Business Seat Cover</button>
+          <button class="thqButton button5" onclick="toggleEconomyseatcover()">Economy Seat Cover</button>
+        </div>
+        <div class="container2 sidewall" id="sidewall">
+          <img src="asset interior pesawat/sidewall1.png" alt="image" class="image" id="sidewallbutton1" onclick="nofocus()"/>
+          <img src="asset interior pesawat/sidewall2.png" alt="image" class="image1" id="sidewallbutton2" onclick="nofocus()"/>
+          <img src="asset interior pesawat/sidewall3.png" alt="image" class="image2" id="sidewallbutton3" onclick="nofocus()"/>
+        </div>
+        <div class="container2 carpet" id="carpet">
+            <img src="asset interior pesawat/carpet1.png" alt="image" class="image" id="carpetbutton1" onclick="nofocus()"/>
+            <img src="asset interior pesawat/carpet2.png" alt="image" class="image1" id="carpetbutton2" onclick="nofocus()"/>
+            <img src="asset interior pesawat/carpet3.png" alt="image" class="image2" id="carpetbutton3" onclick="nofocus()"/>
+        </div>
+        <div class="container2 curtain" id="curtain">
+            <img src="asset interior pesawat/curtain1.png" alt="image" class="image" id="curtainbutton1" onclick="nofocus()"/>
+            <img src="asset interior pesawat/curtain2.png" alt="image" class="image1" id="curtainbutton2" onclick="nofocus()"/>
+            <img src="asset interior pesawat/curtain3.png" alt="image" class="image2" id="curtainbutton3" onclick="nofocus()"/>
+        </div>
+        <div class="container2 businessseatcover" id="businessseatcover">
+            <img src="asset interior pesawat/businessseatcover1.png" alt="image" class="image" id="businessseatcoverbutton1" onclick="nofocus()"/>
+            <img src="asset interior pesawat/businessseatcover2.png" alt="image" class="image1" id="businessseatcoverbutton2" onclick="nofocus()"/>
+            <img src="asset interior pesawat/businessseatcover3.png" alt="image" class="image2" id="businessseatcoverbutton3" onclick="nofocus()"/>
+        </div> 
+        <div class="container2 economyseatcover" id="economyseatcover">
+            <img src="asset interior pesawat/economyseatcover1.png" alt="image" class="image" id="economyseatcoverbutton1" onclick="nofocus()"/>
+            <img src="asset interior pesawat/economyseatcover2.png" alt="image" class="image1" id="economyseatcoverbutton2" onclick="nofocus()"/>
+            <img src="asset interior pesawat/economyseatcover3.png" alt="image" class="image2" id="economyseatcoverbutton3" onclick="nofocus()"/>
+        </div>
+        
+    </div>
+      
+
+      <script>
+        document.getElementById("myapp").focus();
+
+        function nofocus() {
+            document.getElementById("myapp").focus();
+        }
+          
+          function toggleSidewall() {
+            document.getElementById("myapp").focus();
+            var x = document.getElementById("sidewall");
+            if (x.classList.contains("show"))  {
+              x.classList.remove("show");
+            } else {
+              x.classList.add("show");
+            }     
+          }
+
+          function toggleCarpet() {
+            document.getElementById("myapp").focus();
+            var y = document.getElementById("carpet");
+            if (y.classList.contains("show"))  {
+              y.classList.remove("show");
+            } else {
+              y.classList.add("show");
+            }     
+          }
+
+          function toggleCurtain() {
+            document.getElementById("myapp").focus();
+            var z = document.getElementById("curtain");
+            if (z.classList.contains("show"))  {
+              z.classList.remove("show");
+            } else {
+              z.classList.add("show");
+            }     
+          }
+          function toggleBusinessseatcover() {
+            document.getElementById("myapp").focus();
+            var u = document.getElementById("businessseatcover");
+            if (u.classList.contains("show"))  {
+              u.classList.remove("show");
+            } else {
+              u.classList.add("show");
+            }     
+          }
+          function toggleEconomyseatcover() {
+            document.getElementById("myapp").focus();
+            var v = document.getElementById("economyseatcover");
+            if (v.classList.contains("show"))  {
+              v.classList.remove("show");
+            } else {
+              v.classList.add("show");
+            }     
+          }
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,914 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="-198.25667901264376" scrolly="-812.1510269070354" scale="0.6446089162177964">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="uGOP-c`uG@fL(SBM3*v+">videoon?</variable>
+      <variable id="9,NaMr}[:0y~_Hnts*dP">video</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="d2VHUAoKau.v*y*T}$0I" inline="false" x="910" y="-110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="{Pa2/C6Sk1=%Q?M70,^0">
+          <field name="FIELDNAME">sidewall button 1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="t;?H5^k,1:z:*+sM{:ja">
+          <value name="VALUE2">
+            <shadow type="materialList" id="4w(W:$0Y9i+)asX:)Sk,">
+              <field name="FIELDNAME">sidewall business kanan initial</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="PPpbbGDNQGpP(qtjgsj0">
+              <field name="FIELDNAME">side wall business kanan</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="T[9Vrg{X5Ui7b`LHK3mQ">
+              <value name="VALUE2">
+                <shadow type="materialList" id="R:ETfP-2(zqD#Z*-Y.+2">
+                  <field name="FIELDNAME">sidewall business kiri initial</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="p!M%wErgm%#YT)Hqt;$M">
+                  <field name="FIELDNAME">side wall business kiri</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="assignMaterial" id="XR$e%Bf0oN!Sjq5n:mak">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id=";g(^lV()+3Re3449KkxE">
+                      <field name="FIELDNAME">sidewall economy kanan initial</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="Wn]`L*u*ElS57L.3PkcB">
+                      <field name="FIELDNAME">side wall economy kanan</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="M*1*i_)R$s{)h/$?V}Bz">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="lc{%MALiKVsA}(wxNB/1">
+                          <field name="FIELDNAME">sidewall economy kiri initial</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="+YdaABr!bARX(BSSK4UQ">
+                          <field name="FIELDNAME">side wall economy kiri</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="uS}4^}SR(Pq2CuDgC.r1">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="K$jTI#KA9.AT_?OUTh$a">
+                              <field name="FIELDNAME">dinding depan initial</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="UuKP_(;kIrz7M~`WsgIv">
+                              <field name="FIELDNAME">dinding depan</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="assignMaterial" id="]`6:lk_ec7c?dW8|V$Hi">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="WFHBAce|fKItpc=ZjZa2">
+                                  <field name="FIELDNAME">dinding tengah initial</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="tSgQKsyL+1nddcuQfpdj">
+                                  <field name="FIELDNAME">dinding tengah</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="assignMaterial" id="$c`rCOF1zk!_4?f!a?*=">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="%3TST+_anZ%DZ9Ul0a|J">
+                                      <field name="FIELDNAME">dinding belakang initial</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="kx]2X;tVtMGF5o!Yp~,0">
+                                      <field name="FIELDNAME">dinding belakang</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="UO/AjlgcAVaq`K.aL,Y|" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="P0ik:H,dVrI}#VY$ye-D">
+              <field name="FIELDNAME">sidewall button 2</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="HWBQ%xAxkAZ^KcBT`B1/">
+              <value name="VALUE2">
+                <shadow type="materialList" id="4+.Mpzp?bX1..q#,g9@;">
+                  <field name="FIELDNAME">sidewall business kanan brickwall</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="_dXAP3n%[_^])F-ai(E+">
+                  <field name="FIELDNAME">side wall business kanan</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="assignMaterial" id="=$DZGuD/FEP`([gVYjwq">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="sMoH5.!_L3vrgpj4hm7G">
+                      <field name="FIELDNAME">sidewall business kiri brickwall</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="U*tU/%)RC(rn:2-nc=VN">
+                      <field name="FIELDNAME">side wall business kiri</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="30Gcx!kA;cue^b3Qi=gO">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="%D9%2_r])v~.$$$JWT,T">
+                          <field name="FIELDNAME">sidewall economy kanan brickwall</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="o![a|8hIzo~@{7sm(:gf">
+                          <field name="FIELDNAME">side wall economy kanan</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="R%z%~cICpQ.hgbUF8N+R">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="L^p!-Xd,SMRBV6+;`;mp">
+                              <field name="FIELDNAME">sidewall economy kiri brickwall</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="LZy*TiRyvp*[OQRdTG/u">
+                              <field name="FIELDNAME">side wall economy kiri</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="assignMaterial" id="qmKE/]bq]04TCX@.Exbr">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="#D60.s$|cz418lcM]GC_">
+                                  <field name="FIELDNAME">dinding depan brickwall</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="A{7fswfm||ugJZhtfneZ">
+                                  <field name="FIELDNAME">dinding depan</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="assignMaterial" id="8|66Ckg`[)JeFD:7~8%1">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="xJ*W|pNNb-sL{GTEa9D9">
+                                      <field name="FIELDNAME">dinding tengah brickwall</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="FYC;Wk[G$lq#.=,W,k{b">
+                                      <field name="FIELDNAME">dinding tengah</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="assignMaterial" id="Fe4Jgc=`7:wrudeS[898">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="7p1ED5yMub?brgmJU.~C">
+                                          <field name="FIELDNAME">dinding belakang brickwall</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="ZVGRb(wF#!A?0R],?lpN">
+                                          <field name="FIELDNAME">dinding belakang</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="E*eAI9NzLaCxIl4yCh,r" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="*c]I+rK@,R4z:jfmqIrj">
+                  <field name="FIELDNAME">sidewall button 3</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="E7H];m}-[-hvz7[nM~Jg">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="Ta8}V{xO0Ug|QEm8:Up,">
+                      <field name="FIELDNAME">sidewall business kanan plywood</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="s-TPe+#3jV52ngao)83L">
+                      <field name="FIELDNAME">side wall business kanan</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="y`~MbJ0W4=n|gawQEGEm">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="GI^Dr78b}Z:lcKL/Jzdq">
+                          <field name="FIELDNAME">sidewall business kiri plywood</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="Cxm=r~ILLith%gbXhww-">
+                          <field name="FIELDNAME">side wall business kiri</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="#23sFo7n^T31[#@9G~Hg">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="#J`w:jCvr{b=iD_*;dA%">
+                              <field name="FIELDNAME">sidewall economy kanan plywood</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="vvj9vVNpZFrT%IPdS,/e">
+                              <field name="FIELDNAME">side wall economy kanan</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="assignMaterial" id=";K)`BsQY5GK1w9*](IQb">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="6I+%w_lgo{RElVX~tvnV">
+                                  <field name="FIELDNAME">sidewall economy kiri plywood</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="NfhKY?(XOrN3^{hA$UE?">
+                                  <field name="FIELDNAME">side wall economy kiri</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="assignMaterial" id="-K`+kJUqB0z+Vy3?!8]=">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="fpizpB1:P]oD{4Xe/sy,">
+                                      <field name="FIELDNAME">dinding depan plywood</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="5n%s?%dc,!|li-f3#vSE">
+                                      <field name="FIELDNAME">dinding depan</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="assignMaterial" id="}pLP?e?F?f}D|!7rja0r">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="]o_c.h3-~N.J`8AuXYaW">
+                                          <field name="FIELDNAME">dinding tengah plywood</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="UQmp8#VN2,drLxa{$k(z">
+                                          <field name="FIELDNAME">dinding tengah</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="assignMaterial" id="(c;s=:U1ATHt6J0U,Yoi">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="$sVLtci+nF8Y#rn,pnu@">
+                                              <field name="FIELDNAME">dinding belakang plywood</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="crH3?^NP}R1!,=%sIiwt">
+                                              <field name="FIELDNAME">dinding belakang</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="^Bif)y]{l.Cs{^vV?J^d" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="+WF:[~r9oh$c;?n!ppSZ">
+                      <field name="FIELDNAME">carpet button 1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="{UwIBYHY9i-5Y@{i?0Kt">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="6l}Ye{MK^H~26.)=7,_Y">
+                          <field name="FIELDNAME">carpet initial</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="uVwwK9dd~_-B9paZ78Av">
+                          <field name="FIELDNAME">carpet</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id=";c!9ll`i)Qk9SkxXEC}}" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="$!H#O,jbD{Fef~[BZ{B8">
+                          <field name="FIELDNAME">carpet button 2</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="assignMaterial" id="Xq.Yq*fDDeE#R@LW:%E3">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id=".J0*;Z#Jpg3`L`[Q~kJF">
+                              <field name="FIELDNAME">carpet laminate floor</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="@j^L_I9gsTJR[2jWI5ur">
+                              <field name="FIELDNAME">carpet</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="Pe7n0v5nP~J(?Rqm^qZ*" inline="false">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="S?f-Z*~{5RJ_h;P/r7^5">
+                              <field name="FIELDNAME">carpet button 3</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="assignMaterial" id="BX))]04;.|fEwLi9A:7#">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="AaLRh(D`=%L/):w#HRN[">
+                                  <field name="FIELDNAME">carpet plank flooring</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="r;uuW@91fUl,DvFNMO#m">
+                                  <field name="FIELDNAME">carpet</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="LOM{pH;;gV5}4+2Xki3#" inline="false">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="GLG$`P/}d8j.PfxD}ysu">
+                                  <field name="FIELDNAME">curtain button 1</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="assignMaterial" id="yux^TPDoff.#;!$7@Fbh">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="?5Fu|Q25:Is.H/$1v?7S">
+                                      <field name="FIELDNAME">curtain depan initial</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="r{1l[^,K]Ws/m0@eZDsB">
+                                      <field name="FIELDNAME">Curtain depan</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="assignMaterial" id="KED7G#vcGrx0^Nw@J8n,">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="L{K!rf-(GtMI~7R1Rf27">
+                                          <field name="FIELDNAME">curtain belakang initial</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="5d5V.dB-z]9?exf*+,%M">
+                                          <field name="FIELDNAME">Curtain belakang</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenClicked" id="A]v8%.C2sP5z#lG@|MJR" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="J{.xP~ZCI#QvMXih(@%A">
+                                      <field name="FIELDNAME">curtain button 2</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="assignMaterial" id="94IL%q$pffl^0(%Q0K]m">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="uad]+)V-ef{B(P$|)f$[">
+                                          <field name="FIELDNAME">curtain depan hijau</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="BU3Hk8`;o-`dAf$zX94i">
+                                          <field name="FIELDNAME">Curtain depan</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="assignMaterial" id="v9]LswO?kV=MrvW;%jyp">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="YGm}(g`)g8~zl:@1/$R{">
+                                              <field name="FIELDNAME">curtain belakang hijau</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="k9vVQ}O6s#V:@J*l%6R_">
+                                              <field name="FIELDNAME">Curtain belakang</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="whenClicked" id="t*LU=2!$ka?W881XNE8G" inline="false">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <field name="DOUBLE_CLICK">FALSE</field>
+                                      <field name="LEFT_BUTTON">TRUE</field>
+                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="L.|;!t)I%?U-$x6uNz2}">
+                                          <field name="FIELDNAME">curtain button 3</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="assignMaterial" id="vkKlM|A]5381ziKww`_x">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="G_gY82i^Q^{WN7Y:.|d)">
+                                              <field name="FIELDNAME">curtain depan fabric woll</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="-Ved_;30qt:LVS:G]%10">
+                                              <field name="FIELDNAME">Curtain depan</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="assignMaterial" id="Zmk.|E0F(QavAS3K+SZl">
+                                              <value name="VALUE2">
+                                                <shadow type="materialList" id="cs**QzuTqz#`5]I#x(@X">
+                                                  <field name="FIELDNAME">curtain belakang fabric woll</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE1">
+                                                <shadow type="objectList" id="vI#344DrTOlZxE`:tRSH">
+                                                  <field name="FIELDNAME">Curtain belakang</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="whenClicked" id="s)f4?1m|TC*kB$}r|kmY" inline="false">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                          <field name="X_RAY">FALSE</field>
+                                          <field name="DOUBLE_CLICK">FALSE</field>
+                                          <field name="LEFT_BUTTON">TRUE</field>
+                                          <field name="MIDDLE_BUTTON">TRUE</field>
+                                          <field name="RIGHT_BUTTON">TRUE</field>
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="wBKl;KHP[-ndrDK$d~$}">
+                                              <field name="FIELDNAME">business seat cover button 1</field>
+                                            </shadow>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="assignMaterial" id="!tU{sWX^aNAw^)`LgW;w">
+                                              <value name="VALUE2">
+                                                <shadow type="materialList" id="[?Wk(Fx+TlJyOe_pom*_">
+                                                  <field name="FIELDNAME">business seat cover 1 initial</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE1">
+                                                <shadow type="objectList" id="/M(:pn7bez[3iFyNalb#">
+                                                  <field name="FIELDNAME">Business Back Rest 1</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="assignMaterial" id="kGuo@^uW(f3:,^RNALQc">
+                                                  <value name="VALUE2">
+                                                    <shadow type="materialList" id="g:wj4tL#jxpm6.?:*Toj">
+                                                      <field name="FIELDNAME">business seat cover 2 initial</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="VALUE1">
+                                                    <shadow type="objectList" id="qy!^V(Y4P0!6//$(6(,O">
+                                                      <field name="FIELDNAME">Business Back Rest 2</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="assignMaterial" id="PsQXVJ+^/orXo)LT-H:d">
+                                                      <value name="VALUE2">
+                                                        <shadow type="materialList" id="r@@Vg=_F*NRkiv3ap99W">
+                                                          <field name="FIELDNAME">business seat cover 3 initial</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <value name="VALUE1">
+                                                        <shadow type="objectList" id="@-yYmRhl~U(Odg;@.ET?">
+                                                          <field name="FIELDNAME">Business Back Rest 3</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <next>
+                                                        <block type="assignMaterial" id="~(*klSOP`8uw!x*D[]cu">
+                                                          <value name="VALUE2">
+                                                            <shadow type="materialList" id="|BiR9u:4clr:1w(0Kd*(">
+                                                              <field name="FIELDNAME">business seat cover 4 initial</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="VALUE1">
+                                                            <shadow type="objectList" id="goYNMabO^^U#v+r``Hm$">
+                                                              <field name="FIELDNAME">Business Back Rest 4</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <next>
+                                                            <block type="assignMaterial" id="]@(7*aN-o-C4d3ZX*rjE">
+                                                              <value name="VALUE2">
+                                                                <shadow type="materialList" id="q.d9gp[0O5]nqPhx(XJP">
+                                                                  <field name="FIELDNAME">business seat cover 5 initial</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <value name="VALUE1">
+                                                                <shadow type="objectList" id="uI%zn*RyOA3o^vMFEo9E">
+                                                                  <field name="FIELDNAME">Business Back Rest 5</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <next>
+                                                                <block type="assignMaterial" id="JzW/JBkc}9TX=T:hU@v[">
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="G)2[v!U.EbzxEYqn_7B/">
+                                                                      <field name="FIELDNAME">business seat cover 6 initial</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="r]#4Zi.UQlR_{#NL~u/M">
+                                                                      <field name="FIELDNAME">Business Back Rest 6</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="assignMaterial" id="OI:~`]}bH*|{`fBQKm]v">
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="ml@0IV1#Jg9.pd$,b{C0">
+                                                                          <field name="FIELDNAME">business leg rest 1 initial</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="dO*y8+r1L+Ar2HW_:[tz">
+                                                                          <field name="FIELDNAME">Business Leg Rest 1</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <next>
+                                                                        <block type="assignMaterial" id="i$qta!x)egFjt`O#9LG0">
+                                                                          <value name="VALUE2">
+                                                                            <shadow type="materialList" id="Yfz?j!G);H!|aDs3/W.H">
+                                                                              <field name="FIELDNAME">business leg rest 2 initial</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <value name="VALUE1">
+                                                                            <shadow type="objectList" id="LS`1g6=W$BHbb;I442J?">
+                                                                              <field name="FIELDNAME">Business Leg Rest 2</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <next>
+                                                                            <block type="assignMaterial" id="9TG=u$dQ,{oKjJRz51o9">
+                                                                              <value name="VALUE2">
+                                                                                <shadow type="materialList" id="v^xd%f/*2}(mF)^HZqk!">
+                                                                                  <field name="FIELDNAME">business leg rest 3 initial</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                              <value name="VALUE1">
+                                                                                <shadow type="objectList" id="5H$kfw57%95I^gLW8UZ;">
+                                                                                  <field name="FIELDNAME">Business Leg Rest 3</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                              <next>
+                                                                                <block type="assignMaterial" id="19~fj[krBAIRJ%DF$iJ2">
+                                                                                  <value name="VALUE2">
+                                                                                    <shadow type="materialList" id="Bap%)_hhYn=Fie73t;qF">
+                                                                                      <field name="FIELDNAME">business leg rest 3 initial</field>
+                                                                                    </shadow>
+                                                                                  </value>
+                                                                                  <value name="VALUE1">
+                                                                                    <shadow type="objectList" id="KN-I=ttvUeGbzf!ewy:1">
+                                                                                      <field name="FIELDNAME">Business Leg Rest 4</field>
+                                                                                    </shadow>
+                                                                                  </value>
+                                                                                  <next>
+                                                                                    <block type="assignMaterial" id="wH^^C3a1VP0h!WWR#4g$">
+                                                                                      <value name="VALUE2">
+                                                                                        <shadow type="materialList" id="{]~ff(g}Uq{L+)()i@Qr">
+                                                                                          <field name="FIELDNAME">business leg rest 5 initial</field>
+                                                                                        </shadow>
+                                                                                      </value>
+                                                                                      <value name="VALUE1">
+                                                                                        <shadow type="objectList" id="i5Ng,.tct5y{UsA2KK$$">
+                                                                                          <field name="FIELDNAME">Business Leg Rest 5</field>
+                                                                                        </shadow>
+                                                                                      </value>
+                                                                                      <next>
+                                                                                        <block type="assignMaterial" id="5S#~S*aK-KpE0.ivw$Ce">
+                                                                                          <value name="VALUE2">
+                                                                                            <shadow type="materialList" id="+2[{_6SUkccy.Dkd){=d">
+                                                                                              <field name="FIELDNAME">business leg rest 6 initial</field>
+                                                                                            </shadow>
+                                                                                          </value>
+                                                                                          <value name="VALUE1">
+                                                                                            <shadow type="objectList" id="|)K46uGg7eF}`7T}gU{{">
+                                                                                              <field name="FIELDNAME">Business Leg Rest 6</field>
+                                                                                            </shadow>
+                                                                                          </value>
+                                                                                        </block>
+                                                                                      </next>
+                                                                                    </block>
+                                                                                  </next>
+                                                                                </block>
+                                                                              </next>
+                                                                            </block>
+                                                                          </next>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="xa7]PD@]O*_J*QApf)e-" inline="false" x="10" y="30">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="_U@3wcV.[:}w}m]:cgxB">
+          <field name="FIELDNAME">IFE screen</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="rTRm44JTPj6pLz5,x%EW">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id=".Mx%bGub*-`d=wBKb=Ag">
+              <field name="FIELDNAME">IFE screen</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id=";~;n=7ofr-Go!7m)?X//">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="1+?wy@UkRc^T}+DM]Amt">
+              <field name="FIELDNAME">IFE screen</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="variables_set" id="4ra:VMUb(F65WvxMb$8D">
+          <field name="VAR" id="uGOP-c`uG@fL(SBM3*v+">videoon?</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="n[Nu|7Z?B5;oV{L*`ot*">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+          <next>
+            <block type="whenClicked" id="^9Ts7Vdd+MBcC|cIjvi:" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="3IKW1YzKq9=|g)RZ6{(N">
+                  <field name="FIELDNAME">IFE screen</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="t!%bp=5;eN4hW*)pgrT|">
+                  <field name="VAR" id="9,NaMr}[:0y~_Hnts*dP">video</field>
+                  <value name="VALUE">
+                    <block type="loadVideo" id=".YaqK?Y=ZJGhE21PQmH`">
+                      <value name="URL">
+                        <shadow type="text" id="Q(A9yLqOAkDfnL4Y0V_#">
+                          <field name="TEXT">yellow_fish.mp4</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="replaceTexture" id="+)!-5#H_!Uxi*A6)25GM">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                      <field name="OLD_TEX_NAME">logo garuda in IFE screen png.png</field>
+                      <value name="MATERIAL">
+                        <shadow type="materialList" id="hX5O~4u^5=Vq)]$cVN|(">
+                          <field name="FIELDNAME">Material IFE screen</field>
+                        </shadow>
+                      </value>
+                      <value name="NEW_TEX_URL">
+                        <shadow type="text" id="q.c:Zbx(Gx4lR?@1ZI-w">
+                          <field name="TEXT">./newTexture.png</field>
+                        </shadow>
+                        <block type="variables_get" id="NzGiH_CTLh*GeFl]H9U5">
+                          <field name="VAR" id="9,NaMr}[:0y~_Hnts*dP">video</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="playSound" id="ooYFlqr[?[)IVlk9rh7v">
+                          <field name="LOOP">TRUE</field>
+                          <value name="VALUE">
+                            <block type="variables_get" id="u9.c4|;ls={i2mV@2Y_Z">
+                              <field name="VAR" id="9,NaMr}[:0y~_Hnts*dP">video</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="controls_ifelse" id="C|Bo(a`k~5}JNh:ME8JN">
+                              <value name="IF0">
+                                <block type="logic_compare" id="tc6iOoPQM$k2Q,%oYc`k">
+                                  <field name="OP">EQ</field>
+                                  <value name="A">
+                                    <block type="variables_get" id="-_.{Ou5t_X?ymy/?n8zR">
+                                      <field name="VAR" id="uGOP-c`uG@fL(SBM3*v+">videoon?</field>
+                                    </block>
+                                  </value>
+                                  <value name="B">
+                                    <block type="logic_boolean" id="46s)eOtk2JQW-1WnG01W">
+                                      <field name="BOOL">FALSE</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO0">
+                                <block type="setMaterialValue" id="Wab~B85|EMbGc}{8p;g6">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                                  <field name="MAT_VAL_NAME">Value</field>
+                                  <value name="MATERIAL">
+                                    <shadow type="materialList" id="q?hxbgc=mHhwe1@(%W?C">
+                                      <field name="FIELDNAME">Material IFE screen</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE">
+                                    <shadow type="math_number" id="RSc/Jk}sw^1E3QWmOQH6">
+                                      <field name="NUM">1</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="variables_set" id="^}.0cHG%tr__~Sc5fwmT">
+                                      <field name="VAR" id="uGOP-c`uG@fL(SBM3*v+">videoon?</field>
+                                      <value name="VALUE">
+                                        <block type="logic_boolean" id="j#!f3`;;?p[=c5%ZjNIr">
+                                          <field name="BOOL">TRUE</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <statement name="ELSE">
+                                <block type="setMaterialValue" id="ar.KaVC,(CAdW=6A3Mxn">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                                  <field name="MAT_VAL_NAME">Value</field>
+                                  <value name="MATERIAL">
+                                    <shadow type="materialList" id="f_*?+%J6p@Yj=!pdL2gh">
+                                      <field name="FIELDNAME">Material IFE screen</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE">
+                                    <shadow type="math_number" id="fAo{B5%wnjWPF@fSPqw0">
+                                      <field name="NUM">0</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="variables_set" id="A`le%o|(*SiIL7=w(u|A">
+                                      <field name="VAR" id="uGOP-c`uG@fL(SBM3*v+">videoon?</field>
+                                      <value name="VALUE">
+                                        <block type="logic_boolean" id="Qxxdpxqn4ns9O0ik10Z2">
+                                          <field name="BOOL">FALSE</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="57.13316040039058" viewport-y="51.333404541015625" viewport-w="493.2" viewport-h="300.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
